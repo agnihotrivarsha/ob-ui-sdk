@@ -1,6 +1,6 @@
 // frontend/src/App.js
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Route, Switch, BrowserRouter } from 'react-router-dom'
 import { ErrorBoundary } from 'react-error-boundary'
 
@@ -15,21 +15,6 @@ import AccountList from './view/AccountList'
 import AccountInfo from './view/AccountInfo'
 
 const App = () => {
-  const [data, setData] = useState([]);
-
-  /* useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios.get('http://localhost:5000/api/data');
-        setData(response.data);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    };
-
-    fetchData();
-  }, []); */
-
   return (
     <div className="App">
       <ErrorBoundary>
