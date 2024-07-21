@@ -15,6 +15,7 @@ import AccountList from './view/AccountList'
 import AccountInfo from './view/AccountInfo'
 
 const App = () => {
+  
   return (
     <div className="App">
       <ErrorBoundary>
