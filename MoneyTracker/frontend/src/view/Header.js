@@ -2,8 +2,8 @@ import '../App.css'
 
 const Header = () => {
     return (
-      <header>
-        <nav class="header-nav">
+      <header aria-label="Main Header">
+        <nav class="header-nav" aria-label="Main Navigation">
           <div className="logo">
             <a href="/">
               <img src="logo.png" alt="Money Tracker" aria-label="Money Tracker" />
