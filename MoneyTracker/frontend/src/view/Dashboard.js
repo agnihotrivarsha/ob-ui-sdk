@@ -12,11 +12,13 @@ const Dashboard = () => {
                             <Link
                                 className="journeyBtn"
                                 to="/accounts"
+                                role="button"
                             >
                                 Account Information 
                             </Link>
                             <Link
                                 className="journeyBtn"
+                                role="button"
                                 //onClick={() => To Do}
                             >
                                 Payment Information
