@@ -62,12 +62,12 @@
       "Data": {
         "Account": [
           {
-            "AccountId": "string",
+            "AccountId": "11111111",
             "Currency": "string",
             "AccountType": "Business",
             "AccountSubType": "ChargeCard",
-            "Description": "string",
-            "Nickname": "string",
+            "Description": "Account description",
+            "Nickname": "Advantage Gold",
             "Account": {
               "SchemeName": "UK.OBIE.IBAN",
               "Identification": "string",
@@ -94,11 +94,11 @@
       "Data": {
         "Transaction": [
           {
-            "AccountId": "string",
-            "TransactionId": "string",
+            "AccountId": "11111111",
+            "TransactionId": "TransactionId_1",
             "Amount": {
-              "Amount": "string",
-              "Currency": "string"
+              "Amount": "200",
+              "Currency": "£"
             },
             "CreditDebitIndicator": "Credit",
             "Status": "Booked",
@@ -128,11 +128,11 @@
             }
           },
           {
-            "AccountId": "string",
-            "TransactionId": "string",
+            "AccountId": "111111",
+            "TransactionId": "TransactionId_2",
             "Amount": {
-              "Amount": "string",
-              "Currency": "string"
+              "Amount": "18",
+              "Currency": "£"
             },
             "CreditDebitIndicator": "Credit",
             "Status": "Booked",
