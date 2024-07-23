@@ -50,9 +50,9 @@ const AccountInfo = ({accountId}) => {
   const isMobile = window.matchMedia("(max-width: 768px)").matches
   
   return (
-    <div className="account-info">
+    
         {accountInfo[0] && (
-            <div>
+            <div className="account-info" role="region" aria-label="Account Information">
                 <h3>Account Information</h3>
                 <div>
                     <p>Account Number: {accountInfo[0].AccountId}</p>
