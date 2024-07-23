@@ -13,13 +13,13 @@ const Dashboard = () => {
                                 className="journeyBtn"
                                 to="/accounts"
                             >
-                                Account Information Service Provider (AISP)
+                                Account Information 
                             </Link>
                             <Link
                                 className="journeyBtn"
                                 //onClick={() => To Do}
                             >
-                                Payment Initiation Service Provider (PISP)
+                                Payment Information
                             </Link>
                         </div>
                     </div>
