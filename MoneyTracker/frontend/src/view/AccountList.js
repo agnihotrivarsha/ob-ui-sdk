@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const AccountCard = ({ account }) => {
   return (
-    <Link className="card" to={`/account/${account.AccountId}`}>
+    <Link className="card" to={`/account/${account.AccountId}`} aria-label={`${account.Nickname} account details`}>
       <h3>{account.Nickname}</h3>
       <p>Account Number: {account.AccountId}</p>
       <p>Account Type: {account.AccountType}</p>
