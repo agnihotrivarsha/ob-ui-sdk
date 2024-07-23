@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const AccountCard = ({ account }) => {
   return (
-    <Link className="card" to={`/account/${account.AccountId}`} aria-label={`${account.Nickname} account details`}>
+    <Link className="card" to={`/account/${account.AccountId}`} aria-label={`${account.Nickname} account details`} role="listitem" aria-roledescription="account card">
       <h3>{account.Nickname}</h3>
       <p>Account Number: {account.AccountId}</p>
       <p>Account Type: {account.AccountType}</p>
@@ -30,7 +30,8 @@ const AccountList = () => {
   }, []);
   
   return (
-    <div className="account-list">
+    <div className="account-list" role="list" aria-labelledby="account-list-heading">
+      <h2 id="account-list-heading">Account List</h2>
       {accounts.map((account) => (
         <AccountCard key={account.AccountId} account={account} />
       ))}
