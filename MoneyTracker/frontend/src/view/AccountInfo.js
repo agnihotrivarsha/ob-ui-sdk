@@ -57,8 +57,8 @@ const AccountInfo = ({accountId}) => {
                 <div>
                     <p>Account Number: {accountInfo[0].AccountId}</p>
                     <p>Account Type: {accountInfo[0].AccountType}</p>
-                    <p>Description: ${accountInfo[0].Description}</p>
-                    <p>SubType: ${accountInfo[0].AccountSubType}</p>
+                    <p>Description: {accountInfo[0].Description}</p>
+                    <p>SubType: {accountInfo[0].AccountSubType}</p>
                     <p>Currency: ${accountInfo[0].Currency}</p>
                 </div>
             </div>
