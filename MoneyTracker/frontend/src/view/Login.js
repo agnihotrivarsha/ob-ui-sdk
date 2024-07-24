@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 const Login = () => {
     return (
-        <form id="loginForm" class="loginForm" role="form">
+        <form id="loginForm" class="loginForm">
             <div>
                 <div>
                     <label id="username-label" for="username">Username:</label>
